@@ -1,0 +1,52 @@
+body > header {
+    background: #8b603d;
+    color: white;
+    padding: 10px;
+}
+
+body > footer {
+    background: #8b603d;
+    color: white;
+    padding: 10px;
+    clear:both;
+}
+
+.float-left {
+    float: left;
+}
+
+.menu ul {
+    list-style-type: none;
+}
+
+.menu ul li {
+    background: #33b5b5;
+    margin: 10px;
+    padding: 10px;
+    color: white;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

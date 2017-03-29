@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Vertical Align</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+
+        .boxes {
+            margin: 10px;
+        }
+
+        .boxes li {
+            display: inline-block;
+            text-align: center;
+            width: 50px;
+            border: 1px solid green;
+        }
+
+        .boxes li:nth-child(1) {
+            height: 100px;
+            vertical-align: middle;
+        }
+
+        .boxes li:nth-child(2) {
+            height: 50px;
+        }
+
+    </style>
+</head>
+<body>
+
+
+<ul class="boxes">
+    <li>First</li>
+    <li>Second</li>
+</ul>
+
+</body>
+</html>
